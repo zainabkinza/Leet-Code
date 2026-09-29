@@ -16,7 +16,7 @@ public:
         (st.top() == '{' && s[i] == '}' ) ||
         (st.top() == '[' && s[i] == ']' )){
             st.pop();
-        }else{ //no match
+        }else{ // no match
         return false;
         }
         }
